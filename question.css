@@ -1,0 +1,59 @@
+body {
+   background-image: url('pics/bg3.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;  
+   background-size: cover;
+   font-family: 'Arial', sans-serif;
+   color: #333;
+   text-align: center; 
+   padding-top: 20px; 
+}
+
+body::before {
+   content: '';
+   position: absolute;
+   left: 4.95%; 
+   width: 86%;
+   height: 140%; 
+   background-color: rgba(199, 214, 240, 0.5);
+   z-index: -1; 
+ }
+
+
+h1, h2, h3 {
+   color: navy;
+   margin: 20px 0; 
+}
+
+
+input[type="text"], a {
+   font-size: 16px;
+   padding: 10px;
+   margin: 10px 0; 
+   border-radius: 5px; 
+   border: 1px solid #ddd; 
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   background-color: #4c6d8f; 
+   display: inline-block; 
+}
+
+
+
+input[type="radio"] {
+   margin-right: 10px; 
+}
+
+
+.video-container {
+   margin: 20px auto;
+   width: 80%; 
+}
+
+
+ul li a {
+   color: #007bff; 
+}
